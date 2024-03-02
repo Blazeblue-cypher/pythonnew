@@ -6,5 +6,6 @@ total_tip = (bill * (tip / 100))
 total_bill = bill + total_tip
 bill_per_person = total_bill / people
 final_total = round(bill_per_person, 2)
+final_total = "{:.2f}".format(bill_per_person)
 
 print(f"Each person should pay: ${final_total}")
