@@ -1,0 +1,68 @@
+Data Types
+String =
+"Hello World"
+If anything is between the "" or '' it is considered a String
+
+Interger =
+1234
+whole numbers, not surrounded by ""
+
+Float  =
+3.14159
+numbers with decimals in them
+use round() to round the decimal numbers
+print(round(8/3)) = 3, 
+can specify the amount of decimals by
+print(round(8/3, 2)) = 2.67
+
+Boolean =
+True 
+False
+always capitalized
+
+f-String
+f goes before the quotes
+converts all variables into string type to be able to be printed
+score = 0
+height = 1.8
+isWinning = True
+
+print(f"Your score is {score}, your height is {height}, therefor winning is {isWinning} ")
+
+
+Control Flow with if / else and Conditional Operators
+
+if/else statements
+
+water_level = 50
+if water_level > 80:
+  print("Drain water")
+else: 
+  print("Continue")
+
+nested if/else
+
+if condition:
+  if another condition:
+    do this
+  else:
+    do this
+else:
+  do this
+
+  if/elif/else
+
+if condition1:
+  do A
+elif condition2:
+do B
+else
+do this
+
+
+Logical Operators
+
+A and B - both have to be True to be True, one False and both False
+C or D - Only one has to be True, both need to be False  for it to be False
+not E -  if is True it becomes False and if its False it becomes True
+
