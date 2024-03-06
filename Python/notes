@@ -66,3 +66,21 @@ A and B - both have to be True to be True, one False and both False
 C or D - Only one has to be True, both need to be False  for it to be False
 not E -  if is True it becomes False and if its False it becomes True
 
+data structure
+
+list
+name = []
+fruits = ["apple", "pear"]
+
+nested lists- combines 2 lists together into one lists
+list1 = ["apple", "pear"]
+list2 = ["peach", "cherry]
+
+fruits = [["apple", "pear"], ["peach", "cherry"]]
+
+for loop
+for item in list_of_items - do something to each item
+
+range
+for number in range(a, b)
+  print(number)
